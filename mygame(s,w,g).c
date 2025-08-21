@@ -54,7 +54,7 @@ int snakeWaterGun(char you, char comp)
 char CompChoice(char comp)
 {
     srand(time(0));
-    int number = rand() % (2 + 1); // if possible try to make it choose char s w g
+    int number = rand() % (2 + 1); 
     if (number == 0)
     {
         return 's';
